@@ -17,11 +17,31 @@
     <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css" />
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+
+    <!-- script
+    ================================================== -->
+    <script defer src="js/vendor/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
 
     <script src="%PUBLIC_URL%/js/modernizr.js"></script>
     <title>Brendan Howe, Software Engineer</title>
   </head>
-  <body>
+  <body id="top" class="ss-preload">
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+      <div id="loader"></div>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -36,5 +56,8 @@
     <script src="js/jquery.fittext.js"></script>
     <script src="js/magnific-popup.js"></script>
     <script src="js/init.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

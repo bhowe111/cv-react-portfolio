@@ -18,7 +18,7 @@ const Publications = () => {
                   <div className="testimonial-slider__author">
                     <img
                       src="images/avatars/user-02.jpg"
-                      alt="Author image"
+                      alt="Author"
                       className="testimonial-slider__avatar"
                     />
                     <cite className="testimonial-slider__cite">
@@ -39,7 +39,7 @@ const Publications = () => {
                   <div className="testimonial-slider__author">
                     <img
                       src="images/avatars/user-03.jpg"
-                      alt="Author image"
+                      alt="Author"
                       className="testimonial-slider__avatar"
                     />
                     <cite className="testimonial-slider__cite">
@@ -60,7 +60,7 @@ const Publications = () => {
                   <div className="testimonial-slider__author">
                     <img
                       src="images/avatars/user-04.jpg"
-                      alt="Author image"
+                      alt="Author"
                       className="testimonial-slider__avatar"
                     />
                     <cite className="testimonial-slider__cite">
@@ -81,7 +81,7 @@ const Publications = () => {
                   <div className="testimonial-slider__author">
                     <img
                       src="images/avatars/user-05.jpg"
-                      alt="Author image"
+                      alt="Author"
                       className="testimonial-slider__avatar"
                     />
                     <cite className="testimonial-slider__cite">
