@@ -28,8 +28,8 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className="smoothscroll" href="#testimonials">
-                  Testimonials
+                <a className="smoothscroll" href="#publications">
+                  Publications
                 </a>
               </li>
               <li>

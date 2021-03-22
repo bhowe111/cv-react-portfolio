@@ -3,112 +3,175 @@ import React from "react";
 const Publications = () => {
   return (
     <>
-      <section id="testimonials" className="s-testimonials target-section">
-        <div className="s-testimonials__bg" />
-        <div className="row s-testimonials__header">
+      <section id="portfolio" className="s-portfolio target-section">
+        <div className="row s-portfolio__header">
           <div className="column large-12">
-            <h3>Hear What My Clients Says</h3>
+            <h3>Some of My Publications</h3>
           </div>
         </div>
-        <div className="row s-testimonials__content">
-          <div className="column">
-            <div className="swiper-container testimonial-slider">
-              <div className="swiper-wrapper">
-                <div className="testimonial-slider__slide swiper-slide">
-                  <div className="testimonial-slider__author">
-                    <img
-                      src="images/avatars/user-02.jpg"
-                      alt="Author"
-                      className="testimonial-slider__avatar"
-                    />
-                    <cite className="testimonial-slider__cite">
-                      <strong>Tim Cook</strong>
-                      <span>CEO, Apple</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Molestiae incidunt consequatur quis ipsa autem nam sit enim
-                    magni. Voluptas tempore rem. Explicabo a quaerat sint autem
-                    dolore ducimus ut consequatur neque. Nisi dolores quaerat
-                    fuga rem nihil nostrum. Laudantium quia consequatur
-                    molestias delectus culpa.
-                  </p>
-                </div>{" "}
-                {/* end testimonial-slider__slide */}
-                <div className="testimonial-slider__slide swiper-slide">
-                  <div className="testimonial-slider__author">
-                    <img
-                      src="images/avatars/user-03.jpg"
-                      alt="Author"
-                      className="testimonial-slider__avatar"
-                    />
-                    <cite className="testimonial-slider__cite">
-                      <strong>Sundar Pichai</strong>
-                      <span>CEO, Google</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Excepturi nam cupiditate culpa doloremque deleniti repellat.
-                    Veniam quos repellat voluptas animi adipisci. Nisi eaque
-                    consequatur. Voluptatem dignissimos ut ducimus accusantium
-                    perspiciatis. Quasi voluptas eius distinctio. Atque eos
-                    maxime.
-                  </p>
-                </div>{" "}
-                {/* end testimonial-slider__slide */}
-                <div className="testimonial-slider__slide swiper-slide">
-                  <div className="testimonial-slider__author">
-                    <img
-                      src="images/avatars/user-04.jpg"
-                      alt="Author"
-                      className="testimonial-slider__avatar"
-                    />
-                    <cite className="testimonial-slider__cite">
-                      <strong>Satya Nadella</strong>
-                      <span>CEO, Microsoft</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Repellat dignissimos libero. Qui sed at corrupti expedita
-                    voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed
-                    ipsam. Autem eaque officia cum exercitationem sunt
-                    voluptatum accusamus. Quasi voluptas eius distinctio.
-                    Voluptatem dignissimos ut.
-                  </p>
-                </div>{" "}
-                {/* end testimonial-slider__slide */}
-                <div className="testimonial-slider__slide swiper-slide">
-                  <div className="testimonial-slider__author">
-                    <img
-                      src="images/avatars/user-05.jpg"
-                      alt="Author"
-                      className="testimonial-slider__avatar"
-                    />
-                    <cite className="testimonial-slider__cite">
-                      <strong>Jeff Bezos</strong>
-                      <span>CEO, Amazon</span>
-                    </cite>
-                  </div>
-                  <p>
-                    Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc
-                    ac augue. Fusce vel dui. In ac felis quis tortor malesuada
-                    pretium. Curabitur vestibulum aliquam leo. Qui sed at
-                    corrupti expedita voluptas odit. Nihil ea quia nesciunt.
-                    Ducimus aut sed ipsam.
-                  </p>
-                </div>{" "}
-                {/* end testimonial-slider__slide */}
-              </div>{" "}
-              {/* end testimonial slider swiper-wrapper */}
-              <div className="swiper-pagination" />
-            </div>{" "}
-            {/* end swiper-container */}
+        <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+          <div className="column folio-item">
+            <a href="#modal-01" className="folio-item__thumb">
+              <img
+                src="images/portfolio/DuoNoireArticle600x650.png"
+                // srcSet="images/portfolio/droplet.jpg 1x,
+                //                  images/portfolio/droplet@2x.jpg 2x"
+                alt=""
+              />
+            </a>
           </div>{" "}
-          {/* end column */}
+          {/* end folio-item */}
+          <div className="column folio-item">
+            <a href="#modal-02" className="folio-item__thumb">
+              <img
+                src="images/portfolio/YuvalSharon600x650.png"
+                // srcSet="images/portfolio/lamp.jpg 1x,
+                //                  images/portfolio/lamp@2x.jpg 2x"
+                alt=""
+              />
+            </a>
+          </div>{" "}
+          {/* end folio-item */}
+          <div className="column folio-item">
+            <a href="#modal-03" className="folio-item__thumb">
+              <img
+                src="images/portfolio/ThirdAngle600x650.png"
+                // srcSet="images/portfolio/minimalismo.jpg 1x,
+                //                  images/portfolio/minimalismo@2x.jpg 2x"
+                alt=""
+              />
+            </a>
+          </div>{" "}
+          {/* end folio-item */}
+          <div className="column folio-item">
+            <a href="#modal-04" className="folio-item__thumb">
+              <img
+                src="images/portfolio/Quantum600x650.png"
+                // srcSet="images/portfolio/minimalismo.jpg 1x,
+                //                  images/portfolio/minimalismo@2x.jpg 2x"
+                alt=""
+              />
+            </a>
+          </div>{" "}
+          {/* end folio-item */}
+          <div className="column folio-item">
+            <a href="#modal-05" className="folio-item__thumb">
+              <img
+                src="images/portfolio/CustomerMgmt600x650.png"
+                // srcSet="images/portfolio/minimalismo.jpg 1x,
+                //                  images/portfolio/minimalismo@2x.jpg 2x"
+                alt=""
+              />
+            </a>
+          </div>{" "}
+          {/* end folio-item */}
         </div>{" "}
-        {/* end row */}
+        {/* end folio-list */}
+        {/* Modal Templates Popup
+        =========================================================== */}
+        <div id="modal-01" hidden>
+          <div className="modal-popup">
+            <img src="images/portfolio/gallery/g-droplet.jpg" alt="" />
+            <div className="modal-popup__desc">
+              <h5>Droplet</h5>
+              <p>
+                Odio soluta enim quos sit asperiores rerum rerum repudiandae
+                cum. Vel voluptatem alias qui assumenda iure et expedita
+                voluptatem. Ratione officiis quae.
+              </p>
+              <ul className="modal-popup__cat">
+                <li>Branding</li>
+                <li>Product Design</li>
+              </ul>
+            </div>
+            <a href="https://www.behance.net/" className="modal-popup__details">
+              Project link
+            </a>
+          </div>
+        </div>{" "}
+        {/* end modal */}
+        <div id="modal-02" hidden>
+          <div className="modal-popup">
+            <img src="images/portfolio/gallery/g-lamp.jpg" alt="" />
+            <div className="modal-popup__desc">
+              <h5>The Lamp</h5>
+              <p>
+                Proin gravida nibh vel velit auctor aliquet. Aenean
+                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+                ipsum, nec sagittis sem nibh id elit.
+              </p>
+              <ul className="modal-popup__cat">
+                <li>Branding</li>
+              </ul>
+            </div>
+            <a href="https://www.behance.net/" className="modal-popup__details">
+              Project link
+            </a>
+          </div>
+        </div>{" "}
+        {/* end modal */}
+        <div id="modal-03" hidden>
+          <div className="modal-popup">
+            <img src="images/portfolio/gallery/g-minimalismo.jpg" alt="" />
+            <div className="modal-popup__desc">
+              <h5>Minimalismo</h5>
+              <p>
+                Exercitationem reprehenderit quod explicabo consequatur aliquid
+                ut magni ut. Deleniti quo corrupti illum velit eveniet ratione
+                necessitatibus ipsam mollitia.
+              </p>
+              <ul className="modal-popup__cat">
+                <li>Product Design</li>
+              </ul>
+            </div>
+            <a href="https://www.behance.net/" className="modal-popup__details">
+              Project link
+            </a>
+          </div>
+        </div>{" "}
+        {/* end modal */}
+        <div id="modal-04" hidden>
+          <div className="modal-popup">
+            <img src="images/portfolio/Quantum600x650.png" alt="" />
+            <div className="modal-popup__desc">
+              <h5>Minimalismo</h5>
+              <p>
+                Exercitationem reprehenderit quod explicabo consequatur aliquid
+                ut magni ut. Deleniti quo corrupti illum velit eveniet ratione
+                necessitatibus ipsam mollitia.
+              </p>
+              <ul className="modal-popup__cat">
+                <li>Product Design</li>
+              </ul>
+            </div>
+            <a href="https://www.behance.net/" className="modal-popup__details">
+              Project link
+            </a>
+          </div>
+        </div>{" "}
+        {/* end modal */}
+        <div id="modal-05" hidden>
+          <div className="modal-popup">
+            <img src="images/portfolio/CustomerMgmt600x650.png" alt="" />
+            <div className="modal-popup__desc">
+              <h5>Customer Management</h5>
+              <p>
+                Exercitationem reprehenderit quod explicabo consequatur aliquid
+                ut magni ut. Deleniti quo corrupti illum velit eveniet ratione
+                necessitatibus ipsam mollitia.
+              </p>
+              <ul className="modal-popup__cat">
+                <li>Product Design</li>
+              </ul>
+            </div>
+            <a href="https://www.behance.net/" className="modal-popup__details">
+              Project link
+            </a>
+          </div>
+        </div>{" "}
+        {/* end modal */}
       </section>{" "}
-      {/* end s-testimonials */}
+      {/* end s-portfolio */}
     </>
   );
 };

@@ -35,9 +35,10 @@ const Footer = () => {
             </ul>
           </div>
           <div className="column large-7 medium-6 w-1000-stack ss-copyright">
-            <span>© Copyright Ceevee 2021</span>
+            <span>© Copyright Brendan Howe 2021</span>
             <span>
-              Design by <a href="https://www.styleshout.com/">StyleShout</a>
+              Based on design by{" "}
+              <a href="https://www.styleshout.com/">StyleShout</a>
             </span>
           </div>
         </div>
